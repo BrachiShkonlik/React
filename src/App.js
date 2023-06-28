@@ -7,11 +7,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Shop from './Project/Shop';
 import Home from './Project/Home';
 import { Cart } from './Project/Cart';
-import cerditCard from './Project/cerditCard';
 import { Navbar1 } from './Project/Navbar1'
 import { useState } from 'react';
-
-
 
 function App() {
   const [width, setWindowWidth] = useState(0);
@@ -19,7 +16,6 @@ function App() {
     const width = window.innerWidth
     setWindowWidth(width)
   }
-
 
   return (
     <>
